@@ -13,7 +13,7 @@ public struct ItemResponseDTO: Codable {
     public let price: Double
     public let quantity: Int
     
-    init(id: UUID, title: String, price: Double, quantity: Int) {
+   public init(id: UUID, title: String, price: Double, quantity: Int) {
         self.id = id
         self.title = title
         self.price = price
